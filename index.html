@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="nav-wrapper">
                     <div class="logo">
-                        <h1>AE-EPD</h1>
+                        <h1><a href="index.html" style="text-decoration: none; color: inherit;">AE-EPD</a></h1>
                         <span>Associação Escolar</span>
                     </div>
                     <button class="mobile-toggle" id="mobileToggle">
@@ -22,12 +22,13 @@
                         <span></span>
                     </button>
                     <ul class="nav-menu" id="navMenu">
-                        <li><a href="#inicio" class="nav-link active">Início</a></li>
-                        <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
-                        <li><a href="#atividades" class="nav-link">Atividades</a></li>
-                        <li><a href="#noticias" class="nav-link">Notícias</a></li>
-                        <li><a href="#galeria" class="nav-link">Galeria</a></li>
-                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                        <li><a href="index.html" class="nav-link active">Início</a></li>
+                        <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+                        <li><a href="atividades.html" class="nav-link">Atividades</a></li>
+                        <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                        <li><a href="noticias.html" class="nav-link">Notícias</a></li>
+                        <li><a href="galeria.html" class="nav-link">Galeria</a></li>
+                        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,8 +42,8 @@
             <h1 class="hero-title">Associação Escolar da Escola Portuguesa de Díli</h1>
             <p class="hero-subtitle">Construindo pontes entre a educação e a comunidade em Timor-Leste</p>
             <div class="hero-buttons">
-                <a href="#sobre" class="btn btn-primary">Descubra Mais</a>
-                <a href="#contacto" class="btn btn-secondary">Junte-se a Nós</a>
+                <a href="sobre.html" class="btn btn-primary">Descubra Mais</a>
+                <a href="contacto.html" class="btn btn-secondary">Junte-se a Nós</a>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -50,237 +51,72 @@
         </div>
     </section>
 
-    <!-- Sobre Nós -->
-    <section id="sobre" class="section sobre">
+    <!-- Destaques Rápidos -->
+    <section class="section destaques">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Sobre a Associação</h2>
-                <p class="section-subtitle">Promovendo a excelência educativa e o desenvolvimento da comunidade</p>
+                <h2 class="section-title">Bem-vindo à AE-EPD</h2>
+                <p class="section-subtitle">Conheça as nossas áreas de atuação</p>
             </div>
-            <div class="sobre-content">
-                <div class="sobre-text">
-                    <h3>A Nossa Missão</h3>
-                    <p>A Associação Escolar da Escola Portuguesa de Díli tem como missão apoiar e promover o desenvolvimento educativo, cultural e social da comunidade escolar, criando um ambiente propício ao crescimento integral dos nossos alunos.</p>
-                    <h3>Os Nossos Valores</h3>
-                    <ul class="valores-list">
-                        <li><strong>Excelência Educativa:</strong> Compromisso com a qualidade do ensino</li>
-                        <li><strong>Inclusão:</strong> Valorização da diversidade e integração</li>
-                        <li><strong>Comunidade:</strong> Fortalecimento dos laços entre famílias e escola</li>
-                        <li><strong>Inovação:</strong> Promoção de novas metodologias e abordagens</li>
-                    </ul>
-                </div>
-                <div class="sobre-stats">
-                    <div class="stat-card">
-                        <div class="stat-number" data-target="250">0</div>
-                        <div class="stat-label">Alunos</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number" data-target="30">0</div>
-                        <div class="stat-label">Professores</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number" data-target="15">0</div>
-                        <div class="stat-label">Anos de História</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number" data-target="50">0</div>
-                        <div class="stat-label">Atividades/Ano</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Atividades -->
-    <section id="atividades" class="section atividades">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">As Nossas Atividades</h2>
-                <p class="section-subtitle">Promovemos diversas atividades ao longo do ano letivo</p>
-            </div>
-            <div class="atividades-grid">
-                <div class="atividade-card">
-                    <div class="atividade-icon">📚</div>
-                    <h3>Apoio Escolar</h3>
-                    <p>Sessões de apoio e reforço em diversas disciplinas para melhorar o desempenho académico dos alunos.</p>
-                </div>
-                <div class="atividade-card">
-                    <div class="atividade-icon">🎭</div>
-                    <h3>Atividades Culturais</h3>
-                    <p>Eventos culturais que celebram a diversidade e promovem o intercâmbio cultural entre Portugal e Timor-Leste.</p>
-                </div>
-                <div class="atividade-card">
-                    <div class="atividade-icon">⚽</div>
-                    <h3>Desporto Escolar</h3>
-                    <p>Competições e treinos desportivos que incentivam um estilo de vida saudável e o espírito de equipa.</p>
-                </div>
-                <div class="atividade-card">
-                    <div class="atividade-icon">🔬</div>
-                    <h3>Clube de Ciências</h3>
-                    <p>Experiências e projetos científicos que estimulam a curiosidade e o pensamento crítico.</p>
-                </div>
-                <div class="atividade-card">
-                    <div class="atividade-icon">🎨</div>
-                    <h3>Artes e Expressões</h3>
-                    <p>Oficinas de artes plásticas, música e teatro para desenvolver a criatividade e expressão artística.</p>
-                </div>
-                <div class="atividade-card">
-                    <div class="atividade-icon">🌍</div>
+            <div class="destaques-grid">
+                <a href="sobre.html" class="destaque-card">
+                    <div class="destaque-icon">🎓</div>
+                    <h3>Sobre Nós</h3>
+                    <p>Desde 2011, promovemos a excelência educativa em Timor-Leste, conectando mais de 250 alunos à cultura portuguesa e ao desenvolvimento integral.</p>
+                </a>
+                <a href="atividades.html" class="destaque-card">
+                    <div class="destaque-icon">⚽</div>
+                    <h3>Atividades Desportivas</h3>
+                    <p>Futebol, basquetebol, atletismo e muito mais. Promovemos um estilo de vida saudável através do desporto escolar.</p>
+                </a>
+                <a href="atividades.html" class="destaque-card">
+                    <div class="destaque-icon">🎨</div>
+                    <h3>Expressões Artísticas</h3>
+                    <p>Teatro, música, dança e artes plásticas. Desenvolvemos a criatividade e expressão cultural dos nossos alunos.</p>
+                </a>
+                <a href="projetos.html" class="destaque-card">
+                    <div class="destaque-icon">🌍</div>
                     <h3>Projetos Comunitários</h3>
-                    <p>Iniciativas sociais que conectam os alunos com a comunidade local e promovem a cidadania ativa.</p>
-                </div>
+                    <p>Iniciativas solidárias que conectam a escola à comunidade timorense, promovendo cidadania ativa e responsabilidade social.</p>
+                </a>
+                <a href="noticias.html" class="destaque-card">
+                    <div class="destaque-icon">🏆</div>
+                    <h3>Conquistas Académicas</h3>
+                    <p>Os nossos alunos destacam-se em concursos nacionais e internacionais, representando a excelência do ensino português.</p>
+                </a>
+                <a href="contacto.html" class="destaque-card">
+                    <div class="destaque-icon">🤝</div>
+                    <h3>Junte-se a Nós</h3>
+                    <p>Faça parte da nossa comunidade. Entre em contacto para saber como pode participar e contribuir para a educação em Díli.</p>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Notícias -->
-    <section id="noticias" class="section noticias">
+    <!-- Estatísticas -->
+    <section class="section stats-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Últimas Notícias</h2>
-                <p class="section-subtitle">Fique a par das novidades da nossa comunidade</p>
+                <h2 class="section-title">Em Números</h2>
+                <p class="section-subtitle">O nosso impacto na comunidade</p>
             </div>
-            <div class="noticias-grid">
-                <article class="noticia-card">
-                    <div class="noticia-image" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
-                    <div class="noticia-content">
-                        <div class="noticia-meta">
-                            <span class="noticia-data">15 Jan 2026</span>
-                            <span class="noticia-categoria">Evento</span>
-                        </div>
-                        <h3>Início do Ano Letivo 2026</h3>
-                        <p>Celebramos o início de mais um ano letivo com uma cerimónia especial que reuniu alunos, professores e famílias.</p>
-                        <a href="#" class="noticia-link">Ler mais →</a>
-                    </div>
-                </article>
-                <article class="noticia-card">
-                    <div class="noticia-image" style="background-image: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
-                    <div class="noticia-content">
-                        <div class="noticia-meta">
-                            <span class="noticia-data">10 Jan 2026</span>
-                            <span class="noticia-categoria">Conquista</span>
-                        </div>
-                        <h3>Prémio Nacional de Excelência</h3>
-                        <p>Os nossos alunos conquistaram o primeiro lugar no concurso nacional de matemática de Timor-Leste.</p>
-                        <a href="#" class="noticia-link">Ler mais →</a>
-                    </div>
-                </article>
-                <article class="noticia-card">
-                    <div class="noticia-image" style="background-image: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
-                    <div class="noticia-content">
-                        <div class="noticia-meta">
-                            <span class="noticia-data">20 Dez 2025</span>
-                            <span class="noticia-categoria">Comunidade</span>
-                        </div>
-                        <h3>Festa de Natal Solidária</h3>
-                        <p>A nossa festa de Natal angariou fundos para apoiar famílias carenciadas da comunidade local.</p>
-                        <a href="#" class="noticia-link">Ler mais →</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Galeria -->
-    <section id="galeria" class="section galeria">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Galeria de Momentos</h2>
-                <p class="section-subtitle">Memórias da nossa comunidade escolar</p>
-            </div>
-            <div class="galeria-grid">
-                <div class="galeria-item" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                    <div class="galeria-overlay">
-                        <h4>Dia do Desporto</h4>
-                    </div>
+            <div class="sobre-stats">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="250">0</div>
+                    <div class="stat-label">Alunos</div>
                 </div>
-                <div class="galeria-item" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                    <div class="galeria-overlay">
-                        <h4>Feira de Ciências</h4>
-                    </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="30">0</div>
+                    <div class="stat-label">Professores</div>
                 </div>
-                <div class="galeria-item" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                    <div class="galeria-overlay">
-                        <h4>Festa Cultural</h4>
-                    </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Anos de História</div>
                 </div>
-                <div class="galeria-item" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
-                    <div class="galeria-overlay">
-                        <h4>Projeto Comunitário</h4>
-                    </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Atividades/Ano</div>
                 </div>
-                <div class="galeria-item" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                    <div class="galeria-overlay">
-                        <h4>Teatro Escolar</h4>
-                    </div>
-                </div>
-                <div class="galeria-item" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
-                    <div class="galeria-overlay">
-                        <h4>Formatura</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contacto -->
-    <section id="contacto" class="section contacto">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Entre em Contacto</h2>
-                <p class="section-subtitle">Estamos aqui para ajudar e responder às suas questões</p>
-            </div>
-            <div class="contacto-wrapper">
-                <div class="contacto-info">
-                    <h3>Informações de Contacto</h3>
-                    <div class="info-item">
-                        <div class="info-icon">📍</div>
-                        <div>
-                            <h4>Morada</h4>
-                            <p>Escola Portuguesa de Díli<br>Díli, Timor-Leste</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">📧</div>
-                        <div>
-                            <h4>Email</h4>
-                            <p>associacao@epd.tl<br>info@epd.tl</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">📞</div>
-                        <div>
-                            <h4>Telefone</h4>
-                            <p>+670 XXX XXXX</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">🕒</div>
-                        <div>
-                            <h4>Horário</h4>
-                            <p>Segunda a Sexta: 8h00 - 17h00</p>
-                        </div>
-                    </div>
-                </div>
-                <form class="contacto-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="nome">Nome Completo</label>
-                        <input type="text" id="nome" name="nome" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="assunto">Assunto</label>
-                        <input type="text" id="assunto" name="assunto" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
-                </form>
             </div>
         </div>
     </section>
@@ -296,10 +132,10 @@
                 <div class="footer-section">
                     <h4>Links Rápidos</h4>
                     <ul>
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#sobre">Sobre Nós</a></li>
-                        <li><a href="#atividades">Atividades</a></li>
-                        <li><a href="#noticias">Notícias</a></li>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="atividades.html">Atividades</a></li>
+                        <li><a href="noticias.html">Notícias</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -317,9 +153,7 @@
         </div>
     </footer>
 
-    <!-- Botão Voltar ao Topo -->
     <button id="backToTop" class="back-to-top" title="Voltar ao topo">↑</button>
-
     <script src="script.js"></script>
 </body>
 </html>

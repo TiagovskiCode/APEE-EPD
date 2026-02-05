@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Associação Escolar EPD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1><a href="index.html" style="text-decoration: none; color: inherit;">AE-EPD</a></h1>
+                        <span>Associação Escolar</span>
+                    </div>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html" class="nav-link">Início</a></li>
+                        <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+                        <li><a href="atividades.html" class="nav-link">Atividades</a></li>
+                        <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                        <li><a href="noticias.html" class="nav-link">Notícias</a></li>
+                        <li><a href="galeria.html" class="nav-link">Galeria</a></li>
+                        <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Interno -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Entre em Contacto</h1>
+            <p class="page-subtitle">Estamos aqui para ajudar e responder às suas questões</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section">
+        <div class="container">
+            <div class="contacto-wrapper">
+                <div class="contacto-info">
+                    <h3>Informações de Contacto</h3>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>Morada</h4>
+                            <p>Escola Portuguesa de Díli<br>Rua de Balide<br>Díli, Timor-Leste</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>associacao@epd.tl<br>info@epd.tl</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>+670 XXX XXXX<br>+670 XXX XXXX (Emergência)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">🕒</div>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 8h00 - 17h00<br>Sábado: 9h00 - 13h00<br>Domingo: Encerrado</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">🌐</div>
+                        <div>
+                            <h4>Redes Sociais</h4>
+                            <p>Facebook: @AE.EPD.Dili<br>Instagram: @aepd_dili<br>LinkedIn: AE-EPD</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contacto-form" id="contactForm">
+                    <h3 style="margin-bottom: 1.5rem;">Envie-nos uma Mensagem</h3>
+                    
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="assunto">Assunto *</label>
+                        <select id="assunto" name="assunto" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem; background-color: var(--bg-white); color: var(--text-body);">
+                            <option value="">Selecione um assunto</option>
+                            <option value="inscricao">Inscrição de Aluno</option>
+                            <option value="atividades">Informações sobre Atividades</option>
+                            <option value="projetos">Participação em Projetos</option>
+                            <option value="voluntariado">Voluntariado</option>
+                            <option value="patrocinio">Patrocínio/Doação</option>
+                            <option value="parcerias">Parcerias</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem *</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                    
+                    <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 1rem; text-align: center;">* Campos obrigatórios</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa/Como Chegar -->
+    <section class="section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Como Chegar</h2>
+                <p class="section-subtitle">Localização da Escola Portuguesa de Díli</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto; background: white; padding: 2rem; border-radius: 15px; box-shadow: var(--shadow-md);">
+                <h3 style="margin-bottom: 1.5rem;">🗺️ Indicações</h3>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <h4>De Táxi/Carro:</h4>
+                    <p>A escola localiza-se na Rua de Balide, perto do centro de Díli. Seguir pela Avenida Presidente Nicolau Lobato em direção a Balide. A escola encontra-se do lado direito, identificada pela bandeira portuguesa.</p>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <h4>De Microlet:</h4>
+                    <p>Apanhar microlet com destino a Balide. Descer na paragem próxima à escola (pedir ao condutor para parar na "Escola Portuguesa").</p>
+                </div>
+                
+                <div>
+                    <h4>Pontos de Referência:</h4>
+                    <ul style="margin-left: 1.5rem; color: var(--text-light); line-height: 1.8;">
+                        <li>Próximo do Mercado de Balide</li>
+                        <li>A 10 minutos do centro de Díli</li>
+                        <li>Perto da Embaixada de Portugal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perguntas Frequentes -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">Respostas às dúvidas mais comuns</p>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <h4>Como posso inscrever o meu filho na escola?</h4>
+                    <p>As inscrições decorrem normalmente entre Maio e Julho. Entre em contacto connosco para obter o formulário de inscrição e a lista de documentos necessários.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Quais são as atividades disponíveis?</h4>
+                    <p>Oferecemos uma vasta gama de atividades extracurriculares incluindo desporto, artes, música, teatro, informática e projetos comunitários. Consulte a página de Atividades para mais detalhes.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Como posso apoiar a associação?</h4>
+                    <p>Pode apoiar-nos através de doações financeiras, materiais, ou como voluntário. Entre em contacto para saber como pode contribuir.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Há transporte escolar disponível?</h4>
+                    <p>Sim, dispomos de transporte escolar para várias zonas de Díli. Contacte-nos para informações sobre rotas e horários.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>A escola oferece refeições?</h4>
+                    <p>Sim, temos uma cantina que serve almoços saudáveis e equilibrados. O serviço de cantina é opcional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Associação Escolar - EPD</h3>
+                    <p>Promovendo a excelência educativa e o desenvolvimento da comunidade em Timor-Leste desde 2011.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="atividades.html">Atividades</a></li>
+                        <li><a href="noticias.html">Notícias</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>📧 associacao@epd.tl</li>
+                        <li>📞 +670 XXX XXXX</li>
+                        <li>📍 Díli, Timor-Leste</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Associação Escolar - Escola Portuguesa de Díli. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" title="Voltar ao topo">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>

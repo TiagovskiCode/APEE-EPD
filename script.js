@@ -313,6 +313,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // ===== LOG DE INICIALIZAÇÃO =====
     console.log('🎓 Site da Associação Escolar - EPD inicializado com sucesso!');
+    console.log('🎨 Design Preto e Branco aplicado');
     console.log('📱 Menu móvel configurado');
     console.log('🎯 Navegação ativa configurada');
     console.log('📊 Contadores animados prontos');
