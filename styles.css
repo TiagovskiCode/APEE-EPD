@@ -343,10 +343,19 @@ a:hover{
     font-size: 1rem;
 }
 
+.btn a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .btn-primary {
     background-color: var(--text-dark);
     color: var(--bg-white);
     border-color: var(--text-dark);
+}
+
+.btn-primary a {
+    color: var(--bg-white);
 }
 
 .btn-primary:hover {
@@ -357,14 +366,26 @@ a:hover{
     box-shadow: var(--shadow-xl);
 }
 
+.btn-primary:hover a {
+    color: var(--text-dark);
+}
+
 .btn-secondary {
     background-color: transparent;
     color: var(--bg-white);
     border: 2px solid var(--bg-white);
 }
 
+.btn-secondary a {
+    color: var(--bg-white);
+}
+
 .btn-secondary:hover {
     background-color: var(--bg-white);
+    color: var(--text-dark);
+}
+
+.btn-secondary:hover a {
     color: var(--text-dark);
 }
 
