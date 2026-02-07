@@ -74,14 +74,13 @@ body {
 }
 
 a{
-    color: white;
+    color: var(--text-dark);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover{
-    color: black;
-    text-decoration: none;
+    color: var(--primary-color);
     transition: color 0.3s ease;
 }
 
@@ -93,7 +92,8 @@ a:hover{
     background-color: var(--bg-white);
     box-shadow: var(--shadow-md);
     z-index: 1000;
-    transition: all 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    padding: 1rem 0;
 }
 
 #header.scrolled {
@@ -101,7 +101,7 @@ a:hover{
 }
 
 .navbar {
-    padding: 1rem 0;
+    height: 100%;
 }
 
 .nav-wrapper {
@@ -112,33 +112,35 @@ a:hover{
 
 .logo {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
 .logo h1 {
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--text-dark);
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 .logo h1 a {
     transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
 }
 
 .logo h1 a:hover {
     opacity: 0.7;
 }
 
-.logo span {
-    font-size: 0.85rem;
-    color: var(--text-light);
-    margin-top: -5px;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
     gap: 2rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-link {
@@ -191,6 +193,29 @@ a:hover{
     transition: all 0.3s ease;
 }
 
+/* Estilo para o botão de Inscrições - estilo salmão arredondado */
+.nav-link.btn-inscricoes {
+    background-color: #E89A8F;
+    border: 2px solid #D17F74;
+    color: #000000 !important;
+    padding: 0.6rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.nav-link.btn-inscricoes:hover {
+    background-color: #D17F74;
+    border-color: #C06E63;
+    color: #000000 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    -webkit-text-fill-color: #000000;
+}
+
+.nav-link.btn-inscricoes::after {
+    display: none;
+}
 /* Botão de Toggle de Tema */
 .theme-toggle {
     background: var(--text-dark);

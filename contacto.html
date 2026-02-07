@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header e Navegação -->
     <header id="header">
         <nav class="navbar">
             <div class="container">
@@ -21,19 +20,19 @@
                         <span></span>
                     </button>
                     <ul class="nav-menu" id="navMenu">
-                        <li><a href="index.html" class="nav-link active">Início</a></li>
+                        <li><a href="index.html" class="nav-link">Início</a></li>
                         <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
                         <li><a href="orgaos.html" class="nav-link">Órgãos Sociais</a></li>
                         <li><a href="documentos.html" class="nav-link">Documentos</a></li>
                         <li><a href="noticias.html" class="nav-link">Notícias</a></li>
-                        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                        <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dHcfJVzOeToK5DqBbje9NhZCn2xs-zk9Eq-KlBCoNzXllw/viewform" class="nav-link btn-inscricoes" target="_blank">Inscrições</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <!-- Hero Interno -->
     <section class="page-hero">
         <div class="container">
             <h1 class="page-title">Entre em Contacto</h1>
@@ -41,7 +40,6 @@
         </div>
     </section>
 
-    <!-- Contacto -->
     <section class="section">
         <div class="container">
             <div class="contacto-wrapper">
@@ -60,18 +58,11 @@
                         <div class="info-icon">📧</div>
                         <div>
                             <h4>Email</h4>
-                            <p>apee.epd@gmail.com</p>
+                            <p><a href="mailto:apee.epd@gmail.com">apee.epd@gmail.com</a></p>
                             <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 0.5rem;">Responderemos em até 48 horas úteis</p>
                         </div>
                     </div>
                     
-                    <div class="info-item">
-                        <div class="info-icon">📞</div>
-                        <div>
-                            <h4>Telefone</h4>
-                            <p>+670 77 123 456</p>
-                        </div>
-                    </div>
                     
                     <div class="info-item">
                         <div class="info-icon">🕒</div>
@@ -86,12 +77,15 @@
                         <div>
                             <h4>Facebook</h4>
                             <p>Página da APEE-EPD no Facebook<br>
-                            <a href="https://www.facebook.com/people/APEE-EPD/61560222762413/" target="_blank" style="color: var(--text-dark); text-decoration: underline; target: blank;">@APEE.EPD.Dili</a></p>
+                            <a href="https://www.facebook.com/people/APEE-EPD/61560222762413/" target="_blank" style="color: var(--text-dark); text-decoration: underline;">@APEE.EPD.Dili</a></p>
                         </div>
                     </div>
                 </div>
                 
                 <form class="contacto-form" id="contactForm">
+                    <input type="hidden" name="access_key" value="c20f0dd0-7678-41e8-a4ea-1c5eee2ec155">
+                    <input type="hidden" name="from_name" value="Website APEE-EPD">
+                    <input type="hidden" name="subject" value="Nova Mensagem de Contacto">
                     <h3 style="margin-bottom: 1.5rem;">Envie-nos uma Mensagem</h3>
                     
                     <div class="form-group">
@@ -113,13 +107,13 @@
                         <label for="assunto">Assunto *</label>
                         <select id="assunto" name="assunto" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem; background-color: var(--bg-white); color: var(--text-body);">
                             <option value="">Selecione um assunto</option>
-                            <option value="inscricao">Inscrição de Aluno</option>
-                            <option value="atividades">Informações sobre Atividades</option>
-                            <option value="projetos">Participação em Projetos</option>
-                            <option value="voluntariado">Voluntariado</option>
-                            <option value="patrocinio">Patrocínio/Doação</option>
-                            <option value="parcerias">Parcerias</option>
-                            <option value="outro">Outro</option>
+                            <option value="Inscrição de Aluno">Inscrição de Aluno</option>
+                            <option value="Informações sobre Atividades">Informações sobre Atividades</option>
+                            <option value="Participação em Projetos">Participação em Projetos</option>
+                            <option value="Voluntariado">Voluntariado</option>
+                            <option value="Patrocínio/Doação">Patrocínio/Doação</option>
+                            <option value="Parcerias">Parcerias</option>
+                            <option value="Outro">Outro</option>
                         </select>
                     </div>
                     
@@ -139,7 +133,6 @@
         </div>
     </section>
 
-    <!-- Perguntas Frequentes -->
     <section class="section">
         <div class="container">
             <div class="section-header">
@@ -152,26 +145,6 @@
                     <h4>Como posso tornar-me membro da APEE-EPD?</h4>
                     <p>Podem ser membros todos os pais e encarregados de educação dos alunos da Escola Portuguesa de Díli. Entre em contacto connosco para obter mais informações sobre o processo de inscrição e as quotas.</p>
                 </div>
-                
-                <div class="faq-item">
-                    <h4>Qual é o papel da Associação de Pais?</h4>
-                    <p>A APEE-EPD representa os pais e encarregados de educação junto da escola, promove atividades educativas e culturais, e apoia o desenvolvimento equilibrado dos alunos em alinhamento com a língua e cultura portuguesas.</p>
-                </div>
-                
-                <div class="faq-item">
-                    <h4>Como posso participar nas atividades da associação?</h4>
-                    <p>Os associados podem participar nas assembleias gerais, voluntariar-se para atividades, integrar comissões de trabalho ou apresentar propostas ao Conselho Executivo. Contacte-nos para saber mais.</p>
-                </div>
-                
-                <div class="faq-item">
-                    <h4>Com que frequência há assembleias gerais?</h4>
-                    <p>A Assembleia Geral reúne ordinariamente uma vez por ano para aprovação de contas e relatórios, e extraordinariamente sempre que necessário mediante convocação.</p>
-                </div>
-                
-                <div class="faq-item">
-                    <h4>Como posso aceder aos documentos da associação?</h4>
-                    <p>Os estatutos, atas e relatórios estão disponíveis na secção de Documentos deste site, ou podem ser consultados presencialmente na sede da associação.</p>
-                </div>
             </div>
         </div>
     </section>
@@ -181,24 +154,33 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Associação Escolar - EPD</h3>
-                    <p>Promovendo a excelência educativa e o desenvolvimento da comunidade em Timor-Leste desde 2011.</p>
+                    <h3>APEE-EPD</h3>
+                    <p>Associação de Pais e Encarregados de Educação da Escola Portuguesa de Díli. Constituída em 13 de novembro de 2024.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Links Rápidos</h4>
                     <ul>
                         <li><a href="index.html">Início</a></li>
                         <li><a href="sobre.html">Sobre Nós</a></li>
-                        <li><a href="atividades.html">Atividades</a></li>
-                        <li><a href="noticias.html">Notícias</a></li>
+                        <li><a href="orgaos.html">Órgãos Sociais</a></li>
+                        <li><a href="documentos.html">Documentos</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Contacto</h4>
                     <ul>
-                        <li>📧 <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="93f2e0e0fcf0faf2f0f2fcd3f6e3f7bde7ff">[email&#160;protected]</a></li>
-                        <li>📞 +670 XXX XXXX</li>
-                        <li>📍 Díli, Timor-Leste</li>
+                        <li>📧 <a href="mailto:apee.epd@gmail.com">apee.epd@gmail.com</a></li>
+                        <li>📍 Lahane Oriental, Díli</li>
                     </ul>
                 </div>
-       
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024-2026 APEE-EPD - Associação de Pais e Encarregados de Educação da Escola Portuguesa de Díli. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" style="position: fixed; bottom: 30px; right: 30px; background: var(--text-dark); color: var(--bg-white); border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 1.5rem; cursor: pointer; display: none; z-index: 999; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
